@@ -1,0 +1,214 @@
+{
+  "metrics": [
+    {
+      "expression": "M1",
+      "field": "opening_date",
+      "desc": "fill_check",
+      "metric_weight": 0.05,
+      "attribute_weight": 5
+    },
+    {
+      "expression": "M2",
+      "field": "opening_date",
+      "desc": "integrity_check",
+      "metric_weight": 0.95,
+      "attribute_weight": 5
+    },
+    {
+      "expression": "M5",
+      "field": "legal_nature",
+      "desc": "fill_check",
+      "metric_weight": 0.4,
+      "attribute_weight": 11
+    },
+    {
+      "expression": "M6",
+      "field": "legal_nature",
+      "desc": "integrity_check",
+      "metric_weight": 0.6,
+      "attribute_weight": 11
+    },
+    {
+      "expression": "M7",
+      "field": "head_office_or_branch",
+      "desc": "fill_check",
+      "metric_weight": 0.05,
+      "attribute_weight": 4
+    },
+    {
+      "expression": "M8",
+      "field": "head_office_or_branch",
+      "desc": "integrity_check",
+      "metric_weight": 0.95,
+      "attribute_weight": 4
+    },
+    {
+      "expression": "M9",
+      "field": "company_size",
+      "desc": "fill_check",
+      "metric_weight": 0.05,
+      "attribute_weight": 5
+    },
+    {
+      "expression": "M10",
+      "field": "company_size",
+      "desc": "integrity_check",
+      "metric_weight": 0.95,
+      "attribute_weight": 5
+    },
+    {
+      "expression": "M11",
+      "field": "est_employee",
+      "desc": "fill_check",
+      "metric_weight": 0.05,
+      "attribute_weight": 5
+    },
+    {
+      "expression": "M12",
+      "field": "est_employee",
+      "desc": "integrity_check",
+      "metric_weight": 0.95,
+      "attribute_weight": 5
+    },
+    {
+      "expression": "M13",
+      "field": "municipality_uf",
+      "desc": "fill_and_integrity_check",
+      "metric_weight": 1,
+      "attribute_weight": 11
+    },
+    {
+      "expression": "M15",
+      "field": "longitude_latitude",
+      "desc": "fill_check",
+      "metric_weight": 0.4,
+      "attribute_weight": 12
+    },
+    {
+      "expression": "M16",
+      "field": "longitude_latitude",
+      "desc": "integrity_check",
+      "metric_weight": 0.6,
+      "attribute_weight": 12
+    },
+    {
+      "expression": "M17",
+      "field": "has_phone",
+      "desc": "fill_check",
+      "metric_weight": 1,
+      "attribute_weight": 4
+    },
+    {
+      "expression": "M19*M21*M24*M27*M30",
+      "field": "cnae",
+      "desc": "fill_check",
+      "metric_weight": 0.4,
+      "attribute_weight": 12
+    },
+    {
+      "expression": "M20*M22*M23*M25*M28*M29*M31*M32",
+      "field": "cnae",
+      "desc": "integrity_check",
+      "metric_weight": 0.6,
+      "attribute_weight": 12
+    },
+    {
+      "expression": "M33",
+      "field": "has_secondary_cnae",
+      "desc": "fill_check",
+      "metric_weight": 0.05,
+      "attribute_weight": 4
+    },
+    {
+      "expression": "M34",
+      "field": "has_secondary_cnae",
+      "desc": "integrity_check",
+      "metric_weight": 0.95,
+      "attribute_weight": 4
+    },
+    {
+      "expression": "M35",
+      "field": "risk",
+      "desc": "fill_check",
+      "metric_weight": 0.05,
+      "attribute_weight": 5
+    },
+    {
+      "expression": "M36",
+      "field": "risk",
+      "desc": "integrity_check",
+      "metric_weight": 0.95,
+      "attribute_weight": 5
+    },
+    {
+      "expression": "M37",
+      "field": "activity",
+      "desc": "fill_check",
+      "metric_weight": 0.05,
+      "attribute_weight": 5
+    },
+    {
+      "expression": "M38",
+      "field": "activity",
+      "desc": "integrity_check",
+      "metric_weight": 0.95,
+      "attribute_weight": 5
+    },
+    {
+      "expression": "M39",
+      "field": "presumed_revenue",
+      "desc": "fill_check",
+      "metric_weight": 0.05,
+      "attribute_weight": 5
+    },
+    {
+      "expression": "M40",
+      "field": "presumed_revenue",
+      "desc": "integrity_check",
+      "metric_weight": 0.95,
+      "attribute_weight": 5
+    },
+    {
+      "expression": "M41",
+      "field": "has_federal_revenue_situation",
+      "desc": "fill_check",
+      "metric_weight": 0.05,
+      "attribute_weight": 4
+    },
+    {
+      "expression": "M42",
+      "field": "has_federal_revenue_situation",
+      "desc": "integrity_check",
+      "metric_weight": 0.95,
+      "attribute_weight": 4
+    },
+    {
+      "expression": "M43",
+      "field": "has_state_inscription",
+      "desc": "fill_check",
+      "metric_weight": 0.05,
+      "attribute_weight": 4
+    },
+    {
+      "expression": "M44",
+      "field": "has_state_inscription",
+      "desc": "integrity_check",
+      "metric_weight": 0.95,
+      "attribute_weight": 4
+    },
+    {
+      "expression": "M45",
+      "field": "has_sintegra_suframa",
+      "desc": "fill_check",
+      "metric_weight": 0.05,
+      "attribute_weight": 4
+    },
+    {
+      "expression": "M46",
+      "field": "has_sintegra_suframa",
+      "desc": "integrity_check",
+      "metric_weight": 0.95,
+      "attribute_weight": 4
+    }
+  ]
+}
